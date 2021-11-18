@@ -5,6 +5,8 @@
 declare module 'vue' {
   export interface GlobalComponents {
     Button: typeof import('./components/molecules/button/Button.vue')['default']
+    CarbonCampsite: typeof import('~icons/carbon/campsite')['default']
+    CarbonWarning: typeof import('~icons/carbon/warning')['default']
     CharacterCard: typeof import('./components/molecules/character-card/CharacterCard.vue')['default']
     CharacterList: typeof import('./components/organism/CharacterList.vue')['default']
     'Fa:search': typeof import('~icons/fa/search')['default']
